@@ -1,4 +1,15 @@
-div{
-    background: greenyellow;
+.main{
     width: 200px;
+    display: grid;    
+    grid-template-columns: auto auto;
+    grid-column-gap: 10px;
+
+    .js{
+        background: greenyellow;
+    }
+    
+    .css{
+        height: 90vh;
+        background: DarkOrange;
+    }
 }
